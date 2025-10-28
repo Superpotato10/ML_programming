@@ -2,7 +2,7 @@
 
 # 1. Создаем папку проекта
 mkdir venv_lab
-cd venv_lab
+cd venv_lab/n
 <img width="225" height="103" alt="image" src="https://github.com/user-attachments/assets/fd79d720-d489-4893-9086-9b6c5fc8d728" />
 
 
