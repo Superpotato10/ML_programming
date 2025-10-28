@@ -1,8 +1,8 @@
 # ML_programming
 
 # 1. Создаем папку проекта
-mkdir ML_project
-cd ML_project
+mkdir venv_lab
+cd venv_lab
 
 # 2. Создаем виртуальное окружение
 python -m venv .venv
