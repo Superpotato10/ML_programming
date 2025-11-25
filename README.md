@@ -53,7 +53,7 @@ python -m venv .venv
 </div>
 <div align="center">
   <img width="595" height="926" alt="image" src="https://github.com/user-attachments/assets/5033a2b8-7466-4cb8-ac9a-474980efcffa" / alt="Содержание файла requirements_service.txt">
-</div>
+
 
 # 5. Сделаем простое FastAPI-приложение app/main.py с эндпоинтом':
 # GET /ping → {"status":"ok"}
@@ -62,5 +62,19 @@ python -m venv .venv
   <img width="422" height="329" alt="image" src="https://github.com/user-attachments/assets/ba5b9b16-f88b-467f-bc30-d3a233c6812c" / alt="Код для создания простого FastAPI-приложения app/main.py с эндпоинтом">
 </div>
 
+# Запуск приложения
+Для запуска приложения в командную строку необходимо ввести:
+_uvicorn app.main:app --reload_
+Приложение запустится.
+
+### Пример работы приложения (ошибка)
+<div align="center">
+  <img width="910" height="215" alt="image" src="https://github.com/user-attachments/assets/d614990b-3de8-4d81-b9e1-11c86a0493ec" />
+</div>
+
+### Пример работы приложения (ошибка)
+<div align="center">
+  <img width="929" height="121" alt="image" src="https://github.com/user-attachments/assets/ab5730bb-7d6d-4b5b-ae40-c18140db1a8b" />
+</div>
 
 
