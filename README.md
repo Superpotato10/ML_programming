@@ -24,5 +24,20 @@ python -m venv .venv
 <img width="207" height="73" alt="image" src="https://github.com/user-attachments/assets/5509a3be-9579-4373-9f59-9f854a8d2fed" />
 
 ### В каждом из документов перечислены необходимые версии библиотек, которые надо установить для работы с проектом:
+### Содержание файла requirements_jupyter.txt:
 
 <img width="536" height="962" alt="image" src="https://github.com/user-attachments/assets/cf02098e-d261-48a6-898e-e7c7320b33f6" />
+<img width="1245" height="960" alt="image" src="https://github.com/user-attachments/assets/fb33db0f-f519-4c7a-a25f-502ca4867fa1" />
+<img width="1143" height="986" alt="image" src="https://github.com/user-attachments/assets/70b85297-4384-4761-90ea-4db81f6fe673" />
+
+
+### Содержание файла requirements_ML.txt:
+<img width="321" height="432" alt="image" src="https://github.com/user-attachments/assets/6f25d29c-b8e0-4d1d-8f8d-983c06705b2e" />
+
+
+### Содержание файла requirements_service.txt:
+<img width="798" height="959" alt="image" src="https://github.com/user-attachments/assets/cfa77de9-f26c-43f4-b200-113005dad1ee" />
+<img width="595" height="926" alt="image" src="https://github.com/user-attachments/assets/5033a2b8-7466-4cb8-ac9a-474980efcffa" />
+
+
+
