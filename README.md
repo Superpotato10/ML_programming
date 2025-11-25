@@ -3,15 +3,15 @@
 # 1. Создаем папку проекта
 mkdir venv_lab
 cd venv_lab
-
-<img width="225" height="103" alt="image" src="https://github.com/user-attachments/assets/fd79d720-d489-4893-9086-9b6c5fc8d728" />
-
+<div align="center">
+  <img width="225" height="103" alt="image" src="https://github.com/user-attachments/assets/fd79d720-d489-4893-9086-9b6c5fc8d728" />
+ </div>
 
 # 2. Создаем виртуальное окружение
 python -m venv .venv
-
-<img width="221" height="181" alt="image" src="https://github.com/user-attachments/assets/ba6e9cd1-1850-41c7-aee9-bee29ff5d4e0" />
-
+<div align="center">
+  <img width="221" height="181" alt="image" src="https://github.com/user-attachments/assets/ba6e9cd1-1850-41c7-aee9-bee29ff5d4e0" />
+</div>
 
 # 3. Активируем venv (PowerShell)
 .\.venv\Scripts\Activate.ps1
@@ -52,7 +52,7 @@ python -m venv .venv
   <img width="798" height="959" alt="image" src="https://github.com/user-attachments/assets/cfa77de9-f26c-43f4-b200-113005dad1ee" / alt="Содержание файла requirements_service.txt" >
 </div>
 <div align="center">
-  <img width="595" height="926" alt="image" src="https://github.com/user-attachments/assets/5033a2b8-7466-4cb8-ac9a-474980efcffa" / alt="Содержание файла requirements_service.txt">
+    <img width="595" height="926" alt="image" src="https://github.com/user-attachments/assets/5033a2b8-7466-4cb8-ac9a-474980efcffa" / alt="Содержание файла requirements_service.txt">
 </div>
 
 # 5. Сделаем простое FastAPI-приложение app/main.py с эндпоинтом':
@@ -63,8 +63,8 @@ python -m venv .venv
 </div>
 
 # Запуск приложения
-Для запуска приложения в командную строку необходимо ввести: /n
-_uvicorn app.main:app --reload_ /n
+Для запуска приложения в командную строку необходимо ввести: 
+**_uvicorn app.main:app --reload_ **
 Приложение запустится.
 
 ### Пример работы приложения 
