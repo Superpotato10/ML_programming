@@ -17,27 +17,51 @@ python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 
 # Должно появиться (.venv) в начале строки
+<div align="center">
+  <img width="433" height="48" alt="image" src="https://github.com/user-attachments/assets/a86c198e-d112-4ed8-a2c6-3a7830479d26" />
 
-<img width="433" height="48" alt="image" src="https://github.com/user-attachments/assets/a86c198e-d112-4ed8-a2c6-3a7830479d26" />
+</div>
 
 # 4. Создаём необходимые документы
-<img width="207" height="73" alt="image" src="https://github.com/user-attachments/assets/5509a3be-9579-4373-9f59-9f854a8d2fed" />
+<div align="center">
+  <img width="207" height="73" alt="image" src="https://github.com/user-attachments/assets/5509a3be-9579-4373-9f59-9f854a8d2fed" />
+</div>
 
 ### В каждом из документов перечислены необходимые версии библиотек, которые надо установить для работы с проектом:
 ### Содержание файла requirements_jupyter.txt:
 
-<img width="536" height="962" alt="image" src="https://github.com/user-attachments/assets/cf02098e-d261-48a6-898e-e7c7320b33f6" />
-<img width="1245" height="960" alt="image" src="https://github.com/user-attachments/assets/fb33db0f-f519-4c7a-a25f-502ca4867fa1" />
-<img width="1143" height="986" alt="image" src="https://github.com/user-attachments/assets/70b85297-4384-4761-90ea-4db81f6fe673" />
+<div align="center">
+  <img width="536" height="962" alt="image" src="https://github.com/user-attachments/assets/cf02098e-d261-48a6-898e-e7c7320b33f6" />
+</div>
 
+<div align="center">
+  <img width="1245" height="960" alt="image" src="https://github.com/user-attachments/assets/fb33db0f-f519-4c7a-a25f-502ca4867fa1" />
+</div>
+
+<div align="center">
+  <img width="1143" height="986" alt="image" src="https://github.com/user-attachments/assets/70b85297-4384-4761-90ea-4db81f6fe673" />
+</div>
 
 ### Содержание файла requirements_ML.txt:
-<img width="321" height="432" alt="image" src="https://github.com/user-attachments/assets/6f25d29c-b8e0-4d1d-8f8d-983c06705b2e" />
 
+<div align="center">
+  <img width="321" height="432" alt="image" src="https://github.com/user-attachments/assets/6f25d29c-b8e0-4d1d-8f8d-983c06705b2e" />
+</div>
 
 ### Содержание файла requirements_service.txt:
-<img width="798" height="959" alt="image" src="https://github.com/user-attachments/assets/cfa77de9-f26c-43f4-b200-113005dad1ee" />
-<img width="595" height="926" alt="image" src="https://github.com/user-attachments/assets/5033a2b8-7466-4cb8-ac9a-474980efcffa" />
+<div align="center">
+  <img width="798" height="959" alt="image" src="https://github.com/user-attachments/assets/cfa77de9-f26c-43f4-b200-113005dad1ee" />
+</div>
+<div align="center">
+  <img width="595" height="926" alt="image" src="https://github.com/user-attachments/assets/5033a2b8-7466-4cb8-ac9a-474980efcffa" />
+</div>
+
+#5. Сделаем простое FastAPI-приложение app/main.py с эндпоинтом':
+#GET /ping → {"status":"ok"}
+
+<div align="center">
+  <img width="422" height="329" alt="image" src="https://github.com/user-attachments/assets/ba5b9b16-f88b-467f-bc30-d3a233c6812c" />
+</div>
 
 
 
