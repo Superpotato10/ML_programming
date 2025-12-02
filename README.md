@@ -55,6 +55,12 @@ python -m venv .venv
     <img width="595" height="926" alt="image" src="https://github.com/user-attachments/assets/5033a2b8-7466-4cb8-ac9a-474980efcffa" / alt="Содержание файла requirements_service.txt">
 </div>
 
+# Установка файлов с необходимыми требованиями
+
+Для установки requirements-файлов используется стандартная команда 
+### pip install -r (название файла).txt
+
+
 # 5. Сделаем простое FastAPI-приложение app/main.py с эндпоинтом':
 # GET /ping → {"status":"ok"}
 
