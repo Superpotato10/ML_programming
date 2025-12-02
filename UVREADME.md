@@ -11,10 +11,18 @@
 ```powershell
 pip install uv
 ```
+<div align="center">
+<img width="557" height="122" alt="image" src="https://github.com/user-attachments/assets/400fcaec-6f71-422d-9a8a-1e00babb5b9b" />
+</div>
+
 Проверьте установку:
 ```powershell
 uv --version
 ```
+
+<div align="center">
+<img width="460" height="34" alt="image" src="https://github.com/user-attachments/assets/88b5b876-71ee-4797-83f0-a6efe911d4f2" />
+</div>
 
 ## Создание и активация виртуального окружения через uv
 ```powershell
@@ -38,6 +46,13 @@ uv pip install -r requirements_service.txt
 uv pip install -r requirements_jupyter.txt
 ```
 Повторные установки выполняются быстрее, потому что пакеты берутся из локального кеша.
+Ниже на скриншотах представлен процесс установки необходимых пакетов.
+
+<div align=center>
+<img width="919" height="425" alt="image" src="https://github.com/user-attachments/assets/bb097d26-7b9e-4f83-a962-5cf09497f99f" />
+<img width="750" height="276" alt="image" src="https://github.com/user-attachments/assets/0051601a-351b-4751-a696-7740f5ccb56c" />
+<img width="730" height="129" alt="image" src="https://github.com/user-attachments/assets/fe01fa0e-bd88-49f0-a0ef-c4ce5fe0f3b1" />
+</div>
 
 ## Проверка FastAPI-приложения
 ```powershell
@@ -46,17 +61,4 @@ uvicorn app.main:app --reload
 - root (`/`) возвращает 307 Redirect → `/ping`
 - `/ping` → `{"status":"ok"}`
 
-## Финальные шаги и GitHub
-```powershell
-git init
-git add .
-git commit -m "Add FastAPI ping app"
-git branch -M main
-git remote add origin https://github.com/<user>/<repo>.git
-git push -u origin main
-```
 
-## Отчёт
-- Скриншоты последовательности команд — `image.png`.
-- Трудности: браузер ожидал `/ping`, поэтому добавлен редирект с `/`.
-- В результате проект полностью управляется через виртуальное окружение, созданное и обслуживаемое `uv`.
