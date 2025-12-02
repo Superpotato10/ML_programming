@@ -1,9 +1,3 @@
-## Структура проекта
-- `app/main.py` — FastAPI‑приложение с `/ping`
-- `requirements_ML.txt`, `requirements_service.txt`, `requirements_jupyter.txt` — списки зависимостей по задачам
-- `.venv/` — виртуальное окружение (не коммитим, защищено `.gitignore`)
-- `image.png` — скриншоты команд
-
 ## Зачем использовать uv
 [`uv`](https://github.com/astral-sh/uv) объединяет установку зависимостей и управление виртуальными окружениями. Он кэширует скачанные пакеты, использует параллельную загрузку и значительно ускоряет работу по сравнению с классическим `pip + python -m venv`.
 
@@ -60,5 +54,6 @@ uvicorn app.main:app --reload
 ```
 - root (`/`) возвращает 307 Redirect → `/ping`
 - `/ping` → `{"status":"ok"}`
+
 
 
