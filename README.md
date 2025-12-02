@@ -59,8 +59,8 @@ python -m venv .venv
 
 Для установки requirements-файлов используется стандартная команда 
 <div align="center">
-  ### pip install -r (название файла).txt
-</div>
+  <b>pip install -r (название файла).txt</b>
+</div>/n
 
 Ниже показан пример установки файлов.
 
