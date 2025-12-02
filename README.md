@@ -60,6 +60,20 @@ python -m venv .venv
 Для установки requirements-файлов используется стандартная команда 
 ### pip install -r (название файла).txt
 
+Ниже показан пример установки файлов.
+
+### Установка файла requirements_ML.txt
+Для установки библиотек, перечисленных в файле, вам необходимо запустить следующую команду:
+### pip install -r requirements_ML.txt   
+<div align="center">
+  <img width="1131" height="592" alt="image" src="https://github.com/user-attachments/assets/7f140f8c-74f5-4d3a-a6d8-e8fde7237018" />
+</div>
+
+Розовым цветом и стрелочками на изображении отмечены:
+- команда, которую необходимо ввести для установки файла;
+- сообщение об успешной установке библиотек, перечисленных в файле.
+
+### Файлы requirements_service.txt и requirements_jupyter.txt устанавливаются аналогичным образом.
 
 # 5. Сделаем простое FastAPI-приложение app/main.py с эндпоинтом':
 # GET /ping → {"status":"ok"}
