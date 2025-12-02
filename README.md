@@ -67,7 +67,7 @@ python -m venv .venv
 # Установка файла requirements_ML.txt
 Для установки библиотек, перечисленных в файле, вам необходимо запустить следующую команду:
 <div align="center">
-  ### pip install -r requirements_ML.txt
+  <b>pip install -r requirements_ML.txt</b>
 </div>
 
 <div align="center">
